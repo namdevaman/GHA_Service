@@ -1,5 +1,5 @@
 name: Simple
-run-name: ${{inputs.input_folder_name}} | ${{inputs.guid}}
+run-name: Simple_${{inputs.guid}}
 on:
   workflow_dispatch:
     inputs:
