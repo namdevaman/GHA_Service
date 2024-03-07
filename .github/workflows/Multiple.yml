@@ -14,10 +14,18 @@ on:
         default: "N/A"
 
 jobs:
-  multiple-inputs-job:
+  multiple-inputs-job-1:
     runs-on: ubuntu-latest
     steps:
       - name: Display Information
         run: |
           echo "Name: ${{ github.event.inputs.name }}"
           echo "Age: ${{ github.event.inputs.age }}"
+  multiple-inputs-job-2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display Information
+        run: |
+          echo "Name: ${{ github.event.inputs.name }}"
+          echo "Age: ${{ github.event.inputs.age }}"
+  
