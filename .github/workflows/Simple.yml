@@ -10,7 +10,12 @@ on:
         type: string
         default: "N/A"
 jobs:
-  simple-input-job:
+  simple-input-job-1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display Message
+        run: echo "${{ github.event.inputs.message }}"
+  simple-input-job-2:
     runs-on: ubuntu-latest
     steps:
       - name: Display Message
