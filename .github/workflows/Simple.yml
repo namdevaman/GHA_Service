@@ -16,4 +16,4 @@ jobs:
       - name: Display Message
         run: echo "${{ github.event.inputs.message }}"
              echo "waiting for 5 Min."
-             sleep 300
+             sleep 30
