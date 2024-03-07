@@ -21,5 +21,3 @@ jobs:
         run: |
           echo "Name: ${{ github.event.inputs.name }}"
           echo "Age: ${{ github.event.inputs.age }}"
-          echo "waiting for 5 Min."
-          sleep 30
